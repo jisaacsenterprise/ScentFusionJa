@@ -1,0 +1,1513 @@
+{
+  "meta": {
+    "currency": "JMD",
+    "priceGlass": 3600,
+    "pricePlastic": 3000,
+    "priceDiscovery": 1200,
+    "note": "Edit prices here once; every page reads from this file."
+  },
+  "families": [
+    {
+      "id": "amber",
+      "name": "Amber & Oud",
+      "blurb": "Resinous, warm, unmistakably present. The house signature."
+    },
+    {
+      "id": "floral",
+      "name": "Floral",
+      "blurb": "Petals in island heat — jasmine at dusk, tuberose after rain."
+    },
+    {
+      "id": "gourmand",
+      "name": "Gourmand",
+      "blurb": "Vanilla, cane sugar and cocoa. Sweetness with weight behind it."
+    },
+    {
+      "id": "fresh",
+      "name": "Fresh & Aquatic",
+      "blurb": "Salt air, cut citrus, wet stone. Built for the heat."
+    },
+    {
+      "id": "woods",
+      "name": "Woods & Vetiver",
+      "blurb": "Cedar, vetiver root and smoke. Quiet authority."
+    },
+    {
+      "id": "spice",
+      "name": "Spice & Leather",
+      "blurb": "Pimento, black pepper, tobacco. The island's own spice road."
+    },
+    {
+      "id": "citrus",
+      "name": "Citrus & Green",
+      "blurb": "Bergamot, lime leaf and green sap. First light."
+    }
+  ],
+  "products": [
+    {
+      "id": "port-royal-noir",
+      "name": "Port Royal Noir",
+      "wear": "unisex",
+      "family": "amber",
+      "status": "available",
+      "hero": true,
+      "line": "Sunken gold and black water.",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Bitter orange"
+        ],
+        "heart": [
+          "Rose absolute",
+          "Cedarwood"
+        ],
+        "base": [
+          "Ambergris",
+          "Oud",
+          "Benzoin"
+        ]
+      },
+      "copy": "Named for the harbour city the sea took back. Saffron opens sharp and metallic, then rose and cedar close over it like water. What stays on the skin twelve hours later is amber and oud — heavy, salted, faintly smoky. Our most requested scent, and the one people ask the wearer about."
+    },
+    {
+      "id": "cane-river",
+      "name": "Cane River",
+      "wear": "unisex",
+      "family": "gourmand",
+      "status": "available",
+      "hero": true,
+      "line": "Cut cane and cold water.",
+      "notes": {
+        "top": [
+          "Sugar cane",
+          "Green mandarin"
+        ],
+        "heart": [
+          "Jasmine sambac",
+          "Almond"
+        ],
+        "base": [
+          "Bourbon vanilla",
+          "Tonka",
+          "White musk"
+        ]
+      },
+      "copy": "Sweet without being a dessert. Raw cane and mandarin up top, jasmine and almond through the middle, and a long vanilla-tonka finish that warms rather than cloys. Wears beautifully in the heat and even better after dark."
+    },
+    {
+      "id": "blue-mountain",
+      "name": "Blue Mountain",
+      "wear": "unisex",
+      "family": "woods",
+      "status": "available",
+      "hero": true,
+      "line": "Coffee blossom at altitude.",
+      "notes": {
+        "top": [
+          "Coffee blossom",
+          "Bergamot"
+        ],
+        "heart": [
+          "Vetiver",
+          "Nutmeg"
+        ],
+        "base": [
+          "Roasted tonka",
+          "Cedar",
+          "Dark musk"
+        ]
+      },
+      "copy": "Built around the flower rather than the bean. Coffee blossom is green, faintly bitter, almost jasmine-like — we set it against Haitian vetiver and nutmeg, then let roasted tonka bring the warmth in at the end. Unusual, and impossible to mistake for anyone else."
+    },
+    {
+      "id": "empress-hour",
+      "name": "Empress Hour",
+      "wear": "women",
+      "family": "floral",
+      "status": "available",
+      "line": "The half hour before you leave.",
+      "notes": {
+        "top": [
+          "Pink pepper",
+          "Bergamot"
+        ],
+        "heart": [
+          "Damask rose",
+          "Peony",
+          "Orris"
+        ],
+        "base": [
+          "Patchouli",
+          "Praline",
+          "Musk"
+        ]
+      },
+      "copy": "Rose and peony lifted by pink pepper, grounded with a dark patchouli-praline base so it never turns powdery. Structured, feminine and deliberately a little sweet — the kind of scent that reads as expensive across a room."
+    },
+    {
+      "id": "midnight-quadrille",
+      "name": "Midnight Quadrille",
+      "wear": "women",
+      "family": "gourmand",
+      "status": "available",
+      "line": "Coffee, sugar, and something you shouldn't.",
+      "notes": {
+        "top": [
+          "Black coffee",
+          "Pear"
+        ],
+        "heart": [
+          "Orange blossom",
+          "Jasmine"
+        ],
+        "base": [
+          "Vanilla",
+          "Patchouli",
+          "Cedar"
+        ]
+      },
+      "copy": "Bitter coffee against white flowers and vanilla — the tension is the whole point. Sweet at first meeting, darker an hour in. Made for evening and it knows it."
+    },
+    {
+      "id": "hibiscus-noire",
+      "name": "Hibiscus Noire",
+      "wear": "women",
+      "family": "floral",
+      "status": "available",
+      "line": "Sorrel flower, steeped dark.",
+      "notes": {
+        "top": [
+          "Sorrel",
+          "Red currant"
+        ],
+        "heart": [
+          "Hibiscus",
+          "Rose"
+        ],
+        "base": [
+          "Cocoa",
+          "Vanilla",
+          "Amber"
+        ]
+      },
+      "copy": "The Christmas flower taken somewhere warmer. Tart sorrel and red currant open it, hibiscus and rose fill the middle, and cocoa and amber take it into the night. Festive without being a novelty."
+    },
+    {
+      "id": "frangipani-dusk",
+      "name": "Frangipani Dusk",
+      "wear": "women",
+      "family": "floral",
+      "status": "available",
+      "line": "White petals, warm stone.",
+      "notes": {
+        "top": [
+          "Frangipani",
+          "Neroli"
+        ],
+        "heart": [
+          "Tuberose",
+          "Ylang ylang"
+        ],
+        "base": [
+          "Sandalwood",
+          "White musk"
+        ]
+      },
+      "copy": "Creamy tropical white florals over sandalwood. Soft, radiant and close to the skin — the everyday luxury of the collection."
+    },
+    {
+      "id": "lime-cay",
+      "name": "Lime Cay",
+      "wear": "women",
+      "family": "fresh",
+      "status": "available",
+      "line": "Salt on bare shoulders.",
+      "notes": {
+        "top": [
+          "Sea salt",
+          "Lime"
+        ],
+        "heart": [
+          "Water lily",
+          "Sea grape"
+        ],
+        "base": [
+          "Driftwood",
+          "Ambrette"
+        ]
+      },
+      "copy": "Clean, saline and bright. Lime and sea salt over water lily, drying down to pale driftwood. The one to reach for at ten in the morning when it is already thirty degrees."
+    },
+    {
+      "id": "night-jasmine",
+      "name": "Night Jasmine",
+      "wear": "women",
+      "family": "floral",
+      "status": "available",
+      "line": "It only opens after dark.",
+      "notes": {
+        "top": [
+          "Green mandarin"
+        ],
+        "heart": [
+          "Jasmine sambac",
+          "Orange blossom"
+        ],
+        "base": [
+          "Tonka",
+          "Sandalwood",
+          "Musk"
+        ]
+      },
+      "copy": "A near-single-note study in jasmine, the way it actually smells on a Kingston verandah at nine at night — heady, slightly green, faintly animalic underneath."
+    },
+    {
+      "id": "gold-dust",
+      "name": "Gold Dust",
+      "wear": "women",
+      "family": "gourmand",
+      "status": "available",
+      "line": "Warm skin and vanilla.",
+      "notes": {
+        "top": [
+          "Coconut",
+          "Bergamot"
+        ],
+        "heart": [
+          "Orange blossom",
+          "Heliotrope"
+        ],
+        "base": [
+          "Madagascar vanilla",
+          "Sandalwood",
+          "Amber"
+        ]
+      },
+      "copy": "Skin-close, sunlit and comforting. Coconut and orange blossom melting into vanilla and sandalwood. This is the one customers buy again before the bottle is finished."
+    },
+    {
+      "id": "reverie",
+      "name": "Reverie",
+      "wear": "women",
+      "family": "floral",
+      "status": "available",
+      "line": "Petals, powder, poise.",
+      "notes": {
+        "top": [
+          "Lychee",
+          "Pear"
+        ],
+        "heart": [
+          "Peony",
+          "Freesia",
+          "Magnolia"
+        ],
+        "base": [
+          "Cashmere musk",
+          "Blonde woods"
+        ]
+      },
+      "copy": "Fruity-floral done with restraint. Lychee and pear open it, peony and freesia carry it, and a cashmere musk base keeps it soft rather than sugary. Office-safe, date-safe, everything-safe."
+    },
+    {
+      "id": "velour-rouge",
+      "name": "Velour Rouge",
+      "wear": "women",
+      "family": "gourmand",
+      "status": "available",
+      "line": "Red fruit and dark sugar.",
+      "notes": {
+        "top": [
+          "Black cherry",
+          "Raspberry"
+        ],
+        "heart": [
+          "Rose",
+          "Iris"
+        ],
+        "base": [
+          "Praline",
+          "Vanilla",
+          "Patchouli"
+        ]
+      },
+      "copy": "Plush and unapologetically sweet — cherry and raspberry over rose, landing in praline and vanilla. High projection. Wear it when you want to be noticed."
+    },
+    {
+      "id": "seville-orchid",
+      "name": "Seville Orchid",
+      "wear": "women",
+      "family": "floral",
+      "status": "available",
+      "line": "Orchid, amber, gilt edges.",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Plum"
+        ],
+        "heart": [
+          "Orchid",
+          "Tuberose"
+        ],
+        "base": [
+          "Amber",
+          "Vanilla",
+          "Cashmere wood"
+        ]
+      },
+      "copy": "Opulent and golden. Plum and bergamot give way to orchid and tuberose over a warm amber base. The most 'dressed' scent in the women's range."
+    },
+    {
+      "id": "solstice-bloom",
+      "name": "Solstice Bloom",
+      "wear": "women",
+      "family": "floral",
+      "status": "available",
+      "line": "The longest, brightest day.",
+      "notes": {
+        "top": [
+          "Mandarin",
+          "Green apple"
+        ],
+        "heart": [
+          "Gardenia",
+          "Rose",
+          "Lily"
+        ],
+        "base": [
+          "White musk",
+          "Cedar"
+        ]
+      },
+      "copy": "An open bouquet — mandarin and apple into gardenia and rose, finished clean. Fresh, generous and easy to love."
+    },
+    {
+      "id": "sea-almond",
+      "name": "Sea Almond",
+      "wear": "women",
+      "family": "gourmand",
+      "status": "available",
+      "line": "Almond milk and salt wind.",
+      "notes": {
+        "top": [
+          "Bitter almond",
+          "Bergamot"
+        ],
+        "heart": [
+          "Orange blossom",
+          "Coconut"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka",
+          "Musk"
+        ]
+      },
+      "copy": "Soft, milky and slightly saline. Almond and coconut over vanilla with just enough salt to keep it from being a dessert. Comfort in a bottle."
+    },
+    {
+      "id": "poinciana",
+      "name": "Poinciana",
+      "wear": "women",
+      "family": "floral",
+      "status": "available",
+      "line": "The flame tree in June.",
+      "notes": {
+        "top": [
+          "Red berries",
+          "Pink pepper"
+        ],
+        "heart": [
+          "Rose",
+          "Geranium"
+        ],
+        "base": [
+          "Vetiver",
+          "Amber",
+          "Musk"
+        ]
+      },
+      "copy": "Red-flowered and warm-blooded. Berries and pink pepper into a rose-geranium heart, dried down with vetiver so it stays modern."
+    },
+    {
+      "id": "sovereign-iris",
+      "name": "Sovereign Iris",
+      "wear": "women",
+      "family": "woods",
+      "status": "available",
+      "line": "Cool, grey, expensive.",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Violet leaf"
+        ],
+        "heart": [
+          "Orris root",
+          "Iris"
+        ],
+        "base": [
+          "Vetiver",
+          "Sandalwood",
+          "Musk"
+        ]
+      },
+      "copy": "Restrained and architectural. Orris and iris over vetiver and sandalwood — powdery in the way good tailoring is, never sweet. Our quietest scent and our most sophisticated."
+    },
+    {
+      "id": "guava-sun",
+      "name": "Guava Sun",
+      "wear": "women",
+      "family": "fresh",
+      "status": "available",
+      "line": "Fruit picked warm off the tree.",
+      "notes": {
+        "top": [
+          "Pink guava",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Frangipani",
+          "Passionflower"
+        ],
+        "base": [
+          "Musk",
+          "Blonde woods"
+        ]
+      },
+      "copy": "Juicy, bright and uncomplicated. Guava and grapefruit over tropical florals with a clean woody finish. Daytime, beach, brunch."
+    },
+    {
+      "id": "cocoa-noir",
+      "name": "Cocoa Noir",
+      "wear": "women",
+      "family": "gourmand",
+      "status": "available",
+      "line": "Dark chocolate and rum.",
+      "notes": {
+        "top": [
+          "Rum accord",
+          "Orange"
+        ],
+        "heart": [
+          "Cocoa",
+          "Jasmine"
+        ],
+        "base": [
+          "Vanilla",
+          "Patchouli",
+          "Amber"
+        ]
+      },
+      "copy": "Rich and adult. A rum-and-orange opening over real cocoa, finished with patchouli and amber. Cold-weather energy for a warm-weather island."
+    },
+    {
+      "id": "orchid-blush",
+      "name": "Orchid Blush",
+      "wear": "women",
+      "family": "floral",
+      "status": "available",
+      "line": "Soft focus, sharp finish.",
+      "notes": {
+        "top": [
+          "Pear",
+          "Bergamot"
+        ],
+        "heart": [
+          "Orchid",
+          "Peony",
+          "Jasmine"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk",
+          "Cedar"
+        ]
+      },
+      "copy": "Pretty on the surface with a cedar spine underneath. Pear and bergamot, orchid and peony, a vanilla-musk close. Effortless."
+    },
+    {
+      "id": "silk-cotton",
+      "name": "Silk Cotton",
+      "wear": "women",
+      "family": "fresh",
+      "status": "available",
+      "line": "Clean linen, warm skin.",
+      "notes": {
+        "top": [
+          "Aldehydes",
+          "Bergamot"
+        ],
+        "heart": [
+          "White tea",
+          "Lily of the valley"
+        ],
+        "base": [
+          "Cotton musk",
+          "Cedarwood"
+        ]
+      },
+      "copy": "The smell of being immaculately put together. White tea and lily over a soft cotton musk. Understated, and the safest gift in the range."
+    },
+    {
+      "id": "tamarind-gold",
+      "name": "Tamarind Gold",
+      "wear": "women",
+      "family": "spice",
+      "status": "available",
+      "line": "Sweet, sour, spiced.",
+      "notes": {
+        "top": [
+          "Tamarind",
+          "Blood orange"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Rose"
+        ],
+        "base": [
+          "Amber",
+          "Benzoin",
+          "Vanilla"
+        ]
+      },
+      "copy": "Tart tamarind and blood orange against cinnamon and rose, resting on amber. Unusual, warm and distinctly ours."
+    },
+    {
+      "id": "moonflower",
+      "name": "Moonflower",
+      "wear": "women",
+      "family": "floral",
+      "status": "available",
+      "line": "White flowers, no apology.",
+      "notes": {
+        "top": [
+          "Green notes",
+          "Neroli"
+        ],
+        "heart": [
+          "Tuberose",
+          "Gardenia",
+          "Ylang ylang"
+        ],
+        "base": [
+          "Sandalwood",
+          "Amber",
+          "Musk"
+        ]
+      },
+      "copy": "A full white-floral bouquet at full volume. Tuberose and gardenia carried on sandalwood and amber. Not shy, and not meant to be."
+    },
+    {
+      "id": "sorrel-royale",
+      "name": "Sorrel Royale",
+      "wear": "women",
+      "family": "gourmand",
+      "status": "available",
+      "line": "Christmas, all year.",
+      "notes": {
+        "top": [
+          "Sorrel",
+          "Ginger"
+        ],
+        "heart": [
+          "Clove",
+          "Plum"
+        ],
+        "base": [
+          "Rum",
+          "Vanilla",
+          "Amber"
+        ]
+      },
+      "copy": "Sorrel, ginger and clove over rum and vanilla — the island's holiday table rendered as a fine fragrance. Seasonal in feeling, wearable year-round."
+    },
+    {
+      "id": "sovereign",
+      "name": "Sovereign",
+      "wear": "men",
+      "family": "amber",
+      "status": "available",
+      "hero": true,
+      "line": "Presence before introduction.",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Pineapple",
+          "Bergamot"
+        ],
+        "heart": [
+          "Birch",
+          "Jasmine",
+          "Patchouli"
+        ],
+        "base": [
+          "Oakmoss",
+          "Ambergris",
+          "Musk"
+        ]
+      },
+      "copy": "Bright fruit over smoked birch and moss. Opens loud and expensive, settles into something dry, mossy and confident. If a man in the collection owns one bottle, it is this one."
+    },
+    {
+      "id": "nine-nights",
+      "name": "Nine Nights",
+      "wear": "men",
+      "family": "spice",
+      "status": "available",
+      "line": "Rum, smoke and drums.",
+      "notes": {
+        "top": [
+          "Rum accord",
+          "Cardamom"
+        ],
+        "heart": [
+          "Tobacco leaf",
+          "Cinnamon"
+        ],
+        "base": [
+          "Leather",
+          "Vanilla",
+          "Oud"
+        ]
+      },
+      "copy": "Named for the wake that becomes a celebration. Rum and cardamom over tobacco and cinnamon, closing on leather and oud. Deep, warm and impossible to ignore after dark."
+    },
+    {
+      "id": "cockpit-country",
+      "name": "Cockpit Country",
+      "wear": "men",
+      "family": "woods",
+      "status": "available",
+      "line": "Limestone, green shade, rain.",
+      "notes": {
+        "top": [
+          "Juniper",
+          "Lime leaf"
+        ],
+        "heart": [
+          "Vetiver",
+          "Violet leaf"
+        ],
+        "base": [
+          "Cedar",
+          "Wet stone",
+          "Ambroxan"
+        ]
+      },
+      "copy": "Cool and mineral. Juniper and lime leaf over Haitian vetiver, drying to cedar and wet stone. The most 'outdoors' scent we make, and the best in humidity."
+    },
+    {
+      "id": "iron-shore",
+      "name": "Iron Shore",
+      "wear": "men",
+      "family": "fresh",
+      "status": "available",
+      "hero": true,
+      "line": "Where rock meets open sea.",
+      "notes": {
+        "top": [
+          "Sea salt",
+          "Grapefruit",
+          "Mint"
+        ],
+        "heart": [
+          "Marine accord",
+          "Sage"
+        ],
+        "base": [
+          "Ambergris",
+          "Driftwood",
+          "Musk"
+        ]
+      },
+      "copy": "Aquatic without being generic. Salt, grapefruit and mint open cold, a sage-marine heart keeps it dry, and ambergris gives it a skin-like warmth at the end. The daily driver of the men's range."
+    },
+    {
+      "id": "pimento",
+      "name": "Pimento",
+      "wear": "men",
+      "family": "spice",
+      "status": "available",
+      "line": "The island's own spice.",
+      "notes": {
+        "top": [
+          "Pimento berry",
+          "Black pepper",
+          "Bergamot"
+        ],
+        "heart": [
+          "Clove",
+          "Bay leaf",
+          "Geranium"
+        ],
+        "base": [
+          "Tonka",
+          "Cedar",
+          "Leather"
+        ]
+      },
+      "copy": "Built on allspice — the one spice the world took from Jamaica. Peppery and green at the top, warm and leathery underneath. A barbershop classic rebuilt as something finer."
+    },
+    {
+      "id": "blue-mahoe",
+      "name": "Blue Mahoe",
+      "wear": "men",
+      "family": "woods",
+      "status": "available",
+      "line": "The national tree, in a bottle.",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Cardamom"
+        ],
+        "heart": [
+          "Iris",
+          "Blue cypress"
+        ],
+        "base": [
+          "Sandalwood",
+          "Vetiver",
+          "Amber"
+        ]
+      },
+      "copy": "Smooth, blue-grey and grown-up. Cardamom and bergamot into cypress and iris, landing on sandalwood. Wear it to be taken seriously."
+    },
+    {
+      "id": "gully-black",
+      "name": "Gully Black",
+      "wear": "men",
+      "family": "amber",
+      "status": "available",
+      "line": "Concrete after rain.",
+      "notes": {
+        "top": [
+          "Black pepper",
+          "Lavender"
+        ],
+        "heart": [
+          "Patchouli",
+          "Geranium"
+        ],
+        "base": [
+          "Oud",
+          "Amber",
+          "Vanilla"
+        ]
+      },
+      "copy": "Dark, dense and urban. Pepper and lavender over patchouli, finishing on oud and amber. Cold weather, night driving, city energy."
+    },
+    {
+      "id": "newcastle",
+      "name": "Newcastle",
+      "wear": "men",
+      "family": "fresh",
+      "status": "available",
+      "line": "Cool air above the city.",
+      "notes": {
+        "top": [
+          "Green apple",
+          "Lemon",
+          "Mint"
+        ],
+        "heart": [
+          "Lavender",
+          "Jasmine"
+        ],
+        "base": [
+          "Oakmoss",
+          "Musk",
+          "Cedar"
+        ]
+      },
+      "copy": "Crisp and classic. Apple, lemon and mint over lavender with a mossy dry-down. The clean-cut option — office mornings and Sunday afternoons."
+    },
+    {
+      "id": "bay-rum-royale",
+      "name": "Bay Rum Royale",
+      "wear": "men",
+      "family": "spice",
+      "status": "available",
+      "line": "Grandfather's cabinet, refined.",
+      "notes": {
+        "top": [
+          "Bay leaf",
+          "Lime"
+        ],
+        "heart": [
+          "Clove",
+          "Cinnamon",
+          "Rum"
+        ],
+        "base": [
+          "Vetiver",
+          "Tonka",
+          "Musk"
+        ]
+      },
+      "copy": "The Caribbean bay rum tradition taken upmarket. Lime and bay over clove and rum, finished with vetiver so it stays sharp instead of nostalgic."
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "wear": "men",
+      "family": "woods",
+      "status": "available",
+      "line": "Matte black, sharp edge.",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Pink pepper"
+        ],
+        "heart": [
+          "Leather",
+          "Violet"
+        ],
+        "base": [
+          "Vetiver",
+          "Black amber",
+          "Incense"
+        ]
+      },
+      "copy": "Leather and incense over vetiver, opened with bergamot and pink pepper. Formal, severe and expensive-smelling. Evening wear."
+    },
+    {
+      "id": "cedar-smoke",
+      "name": "Cedar Smoke",
+      "wear": "men",
+      "family": "woods",
+      "status": "available",
+      "line": "Fire, then the wood.",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Nutmeg"
+        ],
+        "heart": [
+          "Cedar",
+          "Cypress"
+        ],
+        "base": [
+          "Birch tar",
+          "Vetiver",
+          "Musk"
+        ]
+      },
+      "copy": "Dry woods with real smoke underneath. Grapefruit and nutmeg lift the opening, then cedar and birch tar take over. Understated and very wearable."
+    },
+    {
+      "id": "azure-legend",
+      "name": "Azure Legend",
+      "wear": "men",
+      "family": "fresh",
+      "status": "available",
+      "line": "Open water, full speed.",
+      "notes": {
+        "top": [
+          "Marine accord",
+          "Mandarin",
+          "Ginger"
+        ],
+        "heart": [
+          "Sage",
+          "Jasmine"
+        ],
+        "base": [
+          "Ambergris",
+          "Patchouli",
+          "Cedar"
+        ]
+      },
+      "copy": "Fresh, sporty and high-projection. Ginger and mandarin over a marine heart with a patchouli-cedar base for staying power. Gym bag to dinner."
+    },
+    {
+      "id": "rootstock",
+      "name": "Rootstock",
+      "wear": "men",
+      "family": "woods",
+      "status": "available",
+      "line": "Root, earth, restraint.",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Sage"
+        ],
+        "heart": [
+          "Vetiver",
+          "Orris",
+          "Nutmeg"
+        ],
+        "base": [
+          "Cedar",
+          "Amber",
+          "Musk"
+        ]
+      },
+      "copy": "Vetiver played straight — earthy, slightly smoky, a little citrus at the top. Minimal, masculine and endlessly repeatable."
+    },
+    {
+      "id": "cordovan",
+      "name": "Cordovan",
+      "wear": "men",
+      "family": "spice",
+      "status": "available",
+      "line": "New leather, old money.",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Blood orange"
+        ],
+        "heart": [
+          "Leather",
+          "Tobacco"
+        ],
+        "base": [
+          "Oud",
+          "Cedar",
+          "Vanilla"
+        ]
+      },
+      "copy": "Saffron and leather over a tobacco heart, finished with oud and a whisper of vanilla. Rich, dry and unmistakably premium."
+    },
+    {
+      "id": "kings-house",
+      "name": "King's House",
+      "wear": "men",
+      "family": "amber",
+      "status": "available",
+      "line": "Ceremony and cigar smoke.",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Cinnamon"
+        ],
+        "heart": [
+          "Tobacco",
+          "Cocoa",
+          "Rose"
+        ],
+        "base": [
+          "Amber",
+          "Sandalwood",
+          "Tonka"
+        ]
+      },
+      "copy": "Tobacco, cocoa and amber — warm, sweet and imposing. The most 'occasion' fragrance in the men's line. Weddings, boardrooms, milestones."
+    },
+    {
+      "id": "morning-tide",
+      "name": "Morning Tide",
+      "wear": "men",
+      "family": "citrus",
+      "status": "available",
+      "line": "Cold water, first light.",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Bergamot",
+          "Mint"
+        ],
+        "heart": [
+          "Rosemary",
+          "Neroli"
+        ],
+        "base": [
+          "White musk",
+          "Cedar"
+        ]
+      },
+      "copy": "A clean citrus-aromatic. Lemon and mint over rosemary and neroli, kept simple. The most refreshing thing in the collection on a thirty-degree morning."
+    },
+    {
+      "id": "portland-green",
+      "name": "Portland Green",
+      "wear": "men",
+      "family": "citrus",
+      "status": "available",
+      "line": "Rainforest, river, shade.",
+      "notes": {
+        "top": [
+          "Lime",
+          "Green mandarin",
+          "Basil"
+        ],
+        "heart": [
+          "Fig leaf",
+          "Violet leaf"
+        ],
+        "base": [
+          "Vetiver",
+          "Moss",
+          "Musk"
+        ]
+      },
+      "copy": "Green and wet. Lime and basil over fig leaf, drying to moss and vetiver. Fresh in a natural way rather than a soapy one."
+    },
+    {
+      "id": "aurum-noir",
+      "name": "Aurum Noir",
+      "wear": "men",
+      "family": "amber",
+      "status": "available",
+      "line": "Gold on black.",
+      "notes": {
+        "top": [
+          "Pineapple",
+          "Bergamot",
+          "Pink pepper"
+        ],
+        "heart": [
+          "Rose",
+          "Patchouli",
+          "Birch"
+        ],
+        "base": [
+          "Oud",
+          "Amber",
+          "Musk"
+        ]
+      },
+      "copy": "The house style at full strength — bright fruit, smoked wood, and a long amber-oud base. Loud in the best way and built to last the whole day."
+    },
+    {
+      "id": "spanish-town",
+      "name": "Spanish Town",
+      "wear": "men",
+      "family": "spice",
+      "status": "available",
+      "line": "Old streets, warm stone.",
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Nutmeg",
+          "Lavender",
+          "Iris"
+        ],
+        "base": [
+          "Leather",
+          "Cedar",
+          "Amber"
+        ]
+      },
+      "copy": "Spiced and dusty in a deliberate way. Cardamom and nutmeg over lavender, closing on leather and cedar. Distinctive without being difficult."
+    },
+    {
+      "id": "sound-system",
+      "name": "Sound System",
+      "wear": "men",
+      "family": "gourmand",
+      "status": "available",
+      "line": "Bass, sweat, gold chain.",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Apple"
+        ],
+        "heart": [
+          "Lavender",
+          "Cinnamon"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka",
+          "Amber"
+        ]
+      },
+      "copy": "Sweet, warm and heavy-projecting — the crowd-pleaser. Lavender and cinnamon over a thick vanilla-amber base. Night out, every time."
+    },
+    {
+      "id": "meridian",
+      "name": "Meridian",
+      "wear": "men",
+      "family": "fresh",
+      "status": "available",
+      "line": "Sunday, well spent.",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Cranberry",
+          "Sage"
+        ],
+        "heart": [
+          "Coffee",
+          "Cedar"
+        ],
+        "base": [
+          "Vetiver",
+          "Amber",
+          "Musk"
+        ]
+      },
+      "copy": "Red-fruit brightness against coffee and cedar. Warm, casual and easy to wear from noon into the evening."
+    },
+    {
+      "id": "dark-tide",
+      "name": "Dark Tide",
+      "wear": "men",
+      "family": "amber",
+      "status": "available",
+      "line": "The sea at night.",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lavender",
+          "Pepper"
+        ],
+        "heart": [
+          "Sage",
+          "Geranium",
+          "Elemi"
+        ],
+        "base": [
+          "Ambroxan",
+          "Vanilla",
+          "Patchouli"
+        ]
+      },
+      "copy": "The fresh opening of an aquatic with the depth of an amber. Lavender and pepper up front, then a long, dense ambroxan-vanilla close. Enormous longevity."
+    },
+    {
+      "id": "irish-town",
+      "name": "Irish Town",
+      "wear": "men",
+      "family": "woods",
+      "status": "available",
+      "line": "Mist, moss, morning.",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Verbena",
+          "Mint"
+        ],
+        "heart": [
+          "Iris",
+          "Violet leaf"
+        ],
+        "base": [
+          "Sandalwood",
+          "Ambergris",
+          "Moss"
+        ]
+      },
+      "copy": "Cool, green and quietly luxurious. Verbena and mint into iris, resting on sandalwood and ambergris. Refined rather than showy."
+    },
+    {
+      "id": "hellshire-blue",
+      "name": "Hellshire Blue",
+      "wear": "men",
+      "family": "fresh",
+      "status": "available",
+      "line": "Beach fire, salt water.",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Ginger",
+          "Sea salt"
+        ],
+        "heart": [
+          "Nutmeg",
+          "Marine accord"
+        ],
+        "base": [
+          "Cedar",
+          "Musk",
+          "Amber"
+        ]
+      },
+      "copy": "Salt and citrus with a spiced middle. Bright, breezy and built for the coast — sunset on the sand, fish and festival on the table."
+    },
+    {
+      "id": "gilded-hour",
+      "name": "Gilded Hour",
+      "wear": "unisex",
+      "family": "citrus",
+      "status": "available",
+      "hero": true,
+      "line": "Golden fruit, golden light.",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Sicilian lemon",
+          "Peach"
+        ],
+        "heart": [
+          "Jasmine",
+          "Osmanthus"
+        ],
+        "base": [
+          "Amber",
+          "Musk",
+          "Vanilla"
+        ]
+      },
+      "copy": "Sparkling citrus and stone fruit over a soft amber base. Universally flattering, high-compliment, and the easiest first purchase in the whole house."
+    },
+    {
+      "id": "second-skin",
+      "name": "Second Skin",
+      "wear": "unisex",
+      "family": "woods",
+      "status": "available",
+      "line": "Barely there, never forgotten.",
+      "notes": {
+        "top": [
+          "Ambrette",
+          "Violet"
+        ],
+        "heart": [
+          "Sandalwood",
+          "Iris"
+        ],
+        "base": [
+          "Musk",
+          "Cedar",
+          "Ambroxan"
+        ]
+      },
+      "copy": "Translucent and skin-like — more an atmosphere than a fragrance. Soft woods and clean musk, worn close. Minimalist luxury for people who do not want to announce themselves."
+    },
+    {
+      "id": "cask-and-cane",
+      "name": "Cask & Cane",
+      "wear": "unisex",
+      "family": "gourmand",
+      "status": "available",
+      "line": "What the barrel gives back.",
+      "notes": {
+        "top": [
+          "Cognac accord",
+          "Orange"
+        ],
+        "heart": [
+          "Oak",
+          "Cinnamon",
+          "Plum"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka",
+          "Amber"
+        ]
+      },
+      "copy": "Boozy, oaky and warm. Cognac and orange over oak and cinnamon, closing on vanilla and tonka. Built on the smell of a rum cask at rest — decadent, and unmistakably of this island."
+    },
+    {
+      "id": "velvet-oud",
+      "name": "Velvet Oud",
+      "wear": "unisex",
+      "family": "amber",
+      "status": "available",
+      "line": "Two heavyweights, balanced.",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Bergamot"
+        ],
+        "heart": [
+          "Oud",
+          "Rose"
+        ],
+        "base": [
+          "Bourbon vanilla",
+          "Amber",
+          "Sandalwood"
+        ]
+      },
+      "copy": "Oud made approachable by vanilla. Saffron and rose bridge the two, sandalwood smooths the edges. Rich, deep and wearable anywhere."
+    },
+    {
+      "id": "alba",
+      "name": "Alba",
+      "wear": "unisex",
+      "family": "gourmand",
+      "status": "available",
+      "line": "Warm milk and white wood.",
+      "notes": {
+        "top": [
+          "Almond milk",
+          "Bergamot"
+        ],
+        "heart": [
+          "Coconut",
+          "Heliotrope"
+        ],
+        "base": [
+          "White vanilla",
+          "Sandalwood",
+          "Musk"
+        ]
+      },
+      "copy": "Creamy, soft and comforting without the sugar. Almond milk and coconut over pale vanilla and sandalwood. Cosy, clean and quietly addictive."
+    },
+    {
+      "id": "nocturne",
+      "name": "Nocturne",
+      "wear": "unisex",
+      "family": "floral",
+      "status": "available",
+      "line": "Dark flowers, darker base.",
+      "notes": {
+        "top": [
+          "Truffle",
+          "Black currant",
+          "Bergamot"
+        ],
+        "heart": [
+          "Orchid",
+          "Jasmine",
+          "Spice"
+        ],
+        "base": [
+          "Patchouli",
+          "Vanilla",
+          "Incense"
+        ]
+      },
+      "copy": "Opulent, strange and memorable. Truffle and black currant into a dark floral heart, resting on patchouli and incense. Not for every day — and that is the point."
+    },
+    {
+      "id": "uptown-nights",
+      "name": "Uptown Nights",
+      "wear": "unisex",
+      "family": "amber",
+      "status": "available",
+      "line": "City lights, late hours.",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Pink pepper"
+        ],
+        "heart": [
+          "Rose",
+          "Saffron",
+          "Jasmine"
+        ],
+        "base": [
+          "Amber",
+          "Musk",
+          "Woods"
+        ]
+      },
+      "copy": "Sophisticated and metropolitan. Saffron and rose over amber and clean woods. Dressed-up, unisex and equally good on anyone."
+    },
+    {
+      "id": "fluid-gold",
+      "name": "Fluid Gold",
+      "wear": "unisex",
+      "family": "woods",
+      "status": "available",
+      "line": "Between everything.",
+      "notes": {
+        "top": [
+          "Juniper",
+          "Coriander",
+          "Nutmeg"
+        ],
+        "heart": [
+          "Musk",
+          "Vanilla"
+        ],
+        "base": [
+          "Amberwood",
+          "Pine",
+          "Musk"
+        ]
+      },
+      "copy": "Deliberately hard to categorise — juniper and coriander against musk and vanilla, over amberwood. Fresh and warm at the same time. A connoisseur's pick."
+    },
+    {
+      "id": "estate-roast",
+      "name": "Estate Roast",
+      "wear": "unisex",
+      "family": "gourmand",
+      "status": "available",
+      "line": "The estate, at harvest.",
+      "notes": {
+        "top": [
+          "Coffee",
+          "Cardamom"
+        ],
+        "heart": [
+          "Cocoa",
+          "Hazelnut"
+        ],
+        "base": [
+          "Vanilla",
+          "Sandalwood",
+          "Musk"
+        ]
+      },
+      "copy": "Roasted coffee and cocoa over sandalwood and vanilla. Warm, edible and unmistakably Jamaican in origin story."
+    },
+    {
+      "id": "reach-falls",
+      "name": "Reach Falls",
+      "wear": "unisex",
+      "family": "fresh",
+      "status": "available",
+      "line": "Cold river, green canopy.",
+      "notes": {
+        "top": [
+          "Green mandarin",
+          "Mint",
+          "Water accord"
+        ],
+        "heart": [
+          "Fig",
+          "Lotus"
+        ],
+        "base": [
+          "Moss",
+          "White woods",
+          "Musk"
+        ]
+      },
+      "copy": "Cool and clean as fresh water. Mandarin and mint over fig and lotus, drying to soft moss and pale wood. Refreshing without being sharp."
+    },
+    {
+      "id": "junkanoo",
+      "name": "Junkanoo",
+      "wear": "unisex",
+      "family": "spice",
+      "status": "available",
+      "line": "Masks, drums, all night.",
+      "notes": {
+        "top": [
+          "Ginger",
+          "Blood orange",
+          "Pink pepper"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Rum",
+          "Jasmine"
+        ],
+        "base": [
+          "Amber",
+          "Vanilla",
+          "Benzoin"
+        ]
+      },
+      "copy": "Festival energy — ginger and blood orange, spice and rum, a warm resinous close. Celebratory, generous and made to be smelled in a crowd."
+    }
+  ],
+  "comingSoon": [
+    {
+      "name": "Scent Luxe — Debut Collection",
+      "detail": "Three hero eaux de parfum formulated with an established fragrance house. Jamaican pimento, coffee blossom, vetiver and sea-salt accords. IFRA-compliant, luxury-grade packaging.",
+      "window": "Q4 2026"
+    },
+    {
+      "name": "Pleasure",
+      "detail": "Body, bath and home — the sensorial extension of the house. Oils, washes, candles and diffusers.",
+      "window": "2028"
+    },
+    {
+      "name": "S",
+      "detail": "The monogram line. Accessories, leather goods and limited editions.",
+      "window": "2029"
+    }
+  ]
+}
